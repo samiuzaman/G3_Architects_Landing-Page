@@ -57,4 +57,45 @@ ul li a {
   border-radius: 5px;
 }
 /* Nav Section Code End */
-
+/* Banner Section Code Start Here */
+#banner-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.banner-contant {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.banner-contant h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.banner-contant p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #727272;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+.banner-contant button {
+  padding: 12px 20px;
+  background-color: #ff900e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.banner-contant button:hover {
+  background-color: #e29d08;
+  color: #fff;
+}
+#banner-container img{
+  width: 100%;
+}
+/* Banner Section Code End Here */
