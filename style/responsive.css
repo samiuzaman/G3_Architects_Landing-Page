@@ -39,4 +39,12 @@
 }
 /* Responsive Nav Button Code */
 
-
+/* Mobile View Responsive Design */
+@media only screen and (max-width: 576px) {
+  #banner-container {
+    width: 90%;
+  }
+  .banner-contant {
+    width: 100%;
+  }
+}
