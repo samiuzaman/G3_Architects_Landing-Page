@@ -298,12 +298,27 @@ ul li a {
   line-height: 25px;
   text-align: justify;
 }
-.sponspors-logo-section{
+.sponspors-logo-section {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(5, 1fr);
 }
-.sponspors-logo-section img{
+.sponspors-logo-section img {
   filter: grayscale(100%);
 }
 /* Our Sponspors Section Code End Here */
+/* Footer Section Code Start Here */
+footer {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff4e7;
+  margin-bottom: 20px;
+}
+footer p {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 1rem;
+  color: #727272;
+  font-weight: 500;
+}
+/* Footer Section Code End Here */

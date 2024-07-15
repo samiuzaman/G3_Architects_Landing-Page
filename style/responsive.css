@@ -106,6 +106,15 @@
     gap: 35px;
   }
   /* Our Sponspors Section Code End Here */
+  /* Footer Sectiion Code Start */
+  footer {
+    width: 100%;
+    padding: 0 20%;
+  }
+  footer p {
+    padding: 20px 10%;
+  }
+  /* Footer Sectiion Code Start */
 }
 
 @media screen and (min-width: 940.1px) and (max-width: 1180px) {
@@ -263,4 +272,12 @@
     justify-items: center;
   }
   /* Our Sponspors Section Code End Here */
+  /* Footer Sectiion Code Start */
+  footer {
+    width: 100%;
+  }
+  footer p {
+    padding: 20px 20%;
+  }
+  /* Footer Sectiion Code Start */
 }
