@@ -245,6 +245,7 @@ ul li a {
 }
 .some-facts-card-container {
   display: grid;
+  justify-items: center;
   gap: 24px;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -299,6 +300,7 @@ ul li a {
 }
 .sponspors-logo-section{
   display: grid;
+  justify-items: center;
   grid-template-columns: repeat(5, 1fr);
 }
 .sponspors-logo-section img{

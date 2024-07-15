@@ -109,6 +109,33 @@
 }
 
 @media screen and (min-width: 940.1px) and (max-width: 1180px) {
+  /* Features Section Code Start Here */
+  #features-container {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .features-text-container {
+    width: 100%;
+  }
+  .features-single-div-container {
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-images-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .features-images-container button {
+    right: 0;
+    bottom: 20px;
+    padding: 25px 35px;
+  }
+  /* Features Section Code End Here */
   .some-facts-card-container {
     width: 80%;
     margin: 0 auto;
@@ -215,9 +242,10 @@
     width: 100%;
   }
   .some-facts-card-container {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
   /* Some Facts Section Code End */
   /* Our Sponspors Section Code Start Here */
@@ -232,6 +260,7 @@
     margin: 0 auto;
     grid-template-columns: repeat(1, 1fr);
     gap: 35px;
+    justify-items: center;
   }
   /* Our Sponspors Section Code End Here */
 }
