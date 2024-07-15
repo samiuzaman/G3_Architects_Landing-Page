@@ -244,8 +244,6 @@ ul li a {
   line-height: 25px;
 }
 .some-facts-card-container {
-  width: 100%;
-  margin: 0 auto;
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(4, 1fr);
