@@ -36,15 +36,44 @@
     font-size: 22px;
     color: white;
   }
+  /* Responsive Nav Button Code */
+  /* Quick List Section Code Start Here */
+  #quick-list-container {
+    width: 80%;
+    flex-direction: column;
+  }
+  .quick-list-images,
+  .quick-list-text {
+    width: 90%;
+  }
+  .quick-list-images {
+    margin-bottom: 50px;
+  }
+  /* Quick List Section Code End Here */
 }
-/* Responsive Nav Button Code */
 
 /* Mobile View Responsive Design */
 @media only screen and (max-width: 576px) {
+  /* Banner Section Code Start */
+
   #banner-container {
     width: 90%;
   }
   .banner-contant {
     width: 100%;
   }
+  /* Banner Section Code End */
+  /* Quick List Sectin Code Start */
+  #quick-list-container {
+    width: 90%;
+    flex-direction: column;
+  }
+  .quick-list-images,
+  .quick-list-text {
+    width: 100%;
+  }
+  .quick-list-images {
+    margin-bottom: 50px;
+  }
+  /* Quick List Sectin Code End */
 }
