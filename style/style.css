@@ -222,3 +222,55 @@ ul li a {
   font-weight: 700;
 }
 /* Future Section Code End  */
+/* Some Facts Section Code Start Here */
+#some-facts-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.some-facts-title {
+  width: 50%;
+  padding-bottom: 50px;
+}
+.some-facts-title h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.some-facts-title p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+  line-height: 25px;
+}
+.some-facts-card-container {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.some-facts-cards {
+  width: 220px;
+  height: 220px;
+  border: 1px solid #ff900e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.some-facts-cards img {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+.some-facts-cards h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.some-facts-cards p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #727272;
+}
+/* Some Facts Section Code End Here */
