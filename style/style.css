@@ -272,3 +272,36 @@ ul li a {
   color: #727272;
 }
 /* Some Facts Section Code End Here */
+/* Our Sponspors Section Code Start Here */
+#sponspors-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.sponspors-title-div {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sponspors-title-div h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.sponspors-title-div p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #727272;
+  line-height: 25px;
+  text-align: justify;
+}
+.sponspors-logo-section{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.sponspors-logo-section img{
+  filter: grayscale(100%);
+}
+/* Our Sponspors Section Code End Here */
