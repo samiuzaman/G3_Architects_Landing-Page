@@ -90,12 +90,65 @@ ul li a {
   border-radius: 5px;
   font-size: 1rem;
   font-weight: 400;
+  cursor: pointer;
 }
 .banner-contant button:hover {
   background-color: #e29d08;
   color: #fff;
 }
-#banner-container img{
+#banner-container img {
   width: 100%;
 }
 /* Banner Section Code End Here */
+/* Quick List Section Code Start Here */
+#quick-list-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.quick-list-images {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.quick-list-images img {
+  width: 100%;
+  text-align: center;
+}
+.quick-list-text {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 5%;
+}
+.quick-list-text h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+.quick-list-text h2 span:nth-child(1) {
+  color: #727272;
+  font-weight: 500;
+}
+.quick-list-text h2 span:nth-child(2) {
+  color: #ff900e;
+}
+.quick-list-text p {
+  font-size: 1.1rem;
+  text-align: justify;
+  padding-bottom: 25px;
+  color: #727272;
+}
+.quick-list-text button {
+  padding: 15px 25px;
+  background-color: #ff900e;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+}
+/* Quick List Section Code End Here */
