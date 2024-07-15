@@ -92,6 +92,20 @@
     grid-template-columns: repeat(2, 1fr);
   }
   /* Some Facts Section Code End */
+  /* Our Sponspors Section Code Start Here */
+  #sponspors-container {
+    width: 80%;
+  }
+  .sponspors-title-div {
+    width: 80%;
+  }
+  .sponspors-logo-section {
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+  }
+  /* Our Sponspors Section Code End Here */
 }
 
 @media screen and (min-width: 940.1px) and (max-width: 1180px) {
@@ -99,6 +113,15 @@
     width: 80%;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
+  }
+  .sponspors-title-div {
+    width: 85%;
+  }
+  .sponspors-logo-section {
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
   }
 }
 
@@ -197,4 +220,18 @@
     grid-template-columns: repeat(1, 1fr);
   }
   /* Some Facts Section Code End */
+  /* Our Sponspors Section Code Start Here */
+  #sponspors-container {
+    width: 90%;
+  }
+  .sponspors-title-div {
+    width: 100%;
+  }
+  .sponspors-logo-section {
+    width: 70%;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 35px;
+  }
+  /* Our Sponspors Section Code End Here */
 }
