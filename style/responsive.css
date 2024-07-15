@@ -1,5 +1,5 @@
 /* Table View Responsive Design */
-@media only screen and (max-width: 940px) {
+@media only screen and (min-width: 576.1px) and (max-width: 940px) {
   /* Responsive Nav Button Code */
   nav {
     display: block;
@@ -50,10 +50,73 @@
     margin-bottom: 50px;
   }
   /* Quick List Section Code End Here */
+  /* Features Section Code Start Here */
+  #features-container {
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .features-text-container {
+    width: 100%;
+  }
+  .features-single-div-container {
+    width: 100%;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .features-images-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .features-images-container button {
+    right: 0;
+    bottom: 20px;
+    padding: 25px 35px;
+  }
+  /* Features Section Code End Here */
 }
 
 /* Mobile View Responsive Design */
 @media only screen and (max-width: 576px) {
+  /* Responsive Nav Button Code */
+  nav {
+    display: block;
+    display: flex;
+    width: 92%;
+  }
+  .menu-btn {
+    display: block;
+  }
+  #click:checked ~ .menu-btn i::before {
+    content: "\f00d";
+  }
+  #click:checked ~ ul {
+    left: 0;
+  }
+  nav ul {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    background-color: rgb(3, 69, 168);
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    transition: all 0.5s ease;
+  }
+  nav ul li {
+    margin: 50px 0;
+    text-align: center;
+  }
+  nav ul li a {
+    font-size: 22px;
+    color: white;
+  }
+  /* Responsive Nav Button Code */
   /* Banner Section Code Start */
 
   #banner-container {
@@ -76,4 +139,22 @@
     margin-bottom: 50px;
   }
   /* Quick List Sectin Code End */
+  /* Features Section Code Start */
+  #features-container {
+    flex-direction: column;
+    width: 90%;
+  }
+  .features-text-container {
+    width: 100%;
+  }
+  .features-images-container {
+    width: 100%;
+    text-align: center;
+  }
+  .features-images-container button {
+    right: 0;
+    bottom: 20px;
+    padding: 25px 35px;
+  }
+  /* Features Section Code End */
 }

@@ -159,6 +159,7 @@ ul li a {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 .features-text-container {
   width: 40%;
@@ -201,6 +202,7 @@ ul li a {
 }
 .features-images-container img {
   width: 100%;
+  margin-top: 24px;
 }
 .features-images-container button {
   padding: 35px 40px;
